@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.up {
+  width: 30px;
+  position: fixed;
+  bottom: 135px;
+  right: 20px;
+}
+
+.up-ic {
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+ @media only screen and (max-width:320px){
+  .up{
+    right:100px;
+    position: fixed;
+    bottom: 90px;
+  }
+  .up-ic{
+    width: 50px;
+    height: 50px;
+  }
+ }
