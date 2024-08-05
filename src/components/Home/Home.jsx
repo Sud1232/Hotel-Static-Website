@@ -18,8 +18,8 @@ function Home() {
             <p className="xsm:p-2 xsm:text-6xl xl:text-2xl font-bold font-[adobe-garamond-pro]">LUXURY</p>
             <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7">HOTELS</p>
           </div>
-          <div className="xl:w-[50%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:mx-24">
-            <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base text-white font-semibold xsm:py-2 xsm:text-3xl">
+          <div className="xl:w-[50%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
+            <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-8 text-white font-semibold xsm:py-2 xsm:text-3xl">
               <li className="hover:underline"><Link to="/">Home</Link></li>
               <li className="hover:underline"><Link to="/facilities">Facilities</Link></li>
               <li className="hover:underline"><Link to="/Rooms">Rooms</Link></li>
