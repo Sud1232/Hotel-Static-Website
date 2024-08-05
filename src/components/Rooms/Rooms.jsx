@@ -17,7 +17,7 @@ function Rooms() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${apartment})` }}></div>
         <div className="absolute inset-0 bg-[#14274A] opacity-50"></div>
         <div className="relative xl:w-auto xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
-          <div className="xsm:p-4 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:flex xl:flex-col text-[#14274A] bg-[#E0B973] xl:p-6 xl:text-3xl xl:rounded-b-3xl justify-center">
+          <div className="xsm:p-4 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:flex xl:flex-col text-[#14274A] bg-[#E0B973] xl:p-6 xl:text-3xl xl:rounded-b-[2.5rem] justify-center">
             <p className="xsm:p-2 xsm:text-6xl xl:text-2xl font-bold font-[adobe-garamond-pro]">LUXURY</p>
             <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7">HOTELS</p>
           </div>
@@ -51,13 +51,13 @@ function Rooms() {
         </div>
       </div>
 
-      <div className="xsm:w-[1271px] xsm:text-center xsm:p-10 xl:w-full xl:p-12 xl:text-center xl:px-20 text-[#14274A] stroke-[#14274A] xl:font-medium">
+      <div className="xsm:w-[1271px] xsm:text-center xsm:p-10 xl:w-full xl:p-14 xl:text-center xl:px-20 text-[#14274A] stroke-[#14274A] xl:font-medium">
         <h1 className="xl:text-4xl xsm:font-[adobe-garamond-pro] xsm:font-bold xl:font-[adobe-garamond-pro] xl:font-bold xsm:text-5xl">ROOMS AND RATES</h1>
         <p className="xsm:text-3xl xl:text-lg xsm:pt-7 xl:pt-4 xl:w-full">Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes,<br />
           comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented <br />
           by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces. </p>
       </div>
-      <div className="xl:flex xl:flex-col xl:items-center xl:space-y-12 xl:w-full xl:justify-center xsm:w-[1271px] xsm:flex xsm:flex-col xsm:justify-center xsm:items-center xsm:space-y-14">
+      <div className="xl:flex xl:flex-col xl:items-center xl:space-y-16 xl:w-full xl:justify-center xsm:w-[1271px] xsm:flex xsm:flex-col xsm:justify-center xsm:items-center xsm:space-y-14">
         <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-lg">
           <img src={room1} alt="" />
           <p className="xsm:text-center xsm:p-4 xl:p-4 xl:text-center bg-[#14274A] text-white font-bold font-[montserrat] text-3xl">SINGLE ROOM</p>
@@ -82,7 +82,6 @@ function Rooms() {
             <button className="bg-[#E0B973] text-white xsm:p-5 xsm:text-3xl xl:p-5 xl:px-16 xl:text-2xl xl:flex xl:w-[288px] xl:h-[78px] rounded-md font-bold font-[montserrat]">$155 Avg/night</button>
           </div>
         </div>
-
       </div>
       <Testimonials />
       <Footer />
