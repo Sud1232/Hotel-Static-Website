@@ -30,7 +30,7 @@ function Rooms() {
             </ul>
           </div>
         </div>
-        <div className="relative xl:w-[auto] xl:flex text-white xl:p-1 xl:px-16 font-[adobe-garamond-pro] z-10">
+        <div className="relative xl:w-[auto] xl:flex text-white xl:p-1 xl:px-16 font-[adobe-garamond-pro] z-10 hover:drop-shadow-2xl">
           <p className="xsm:p-20 xsm:text-3xl xl:text-3xl font-sans xl:tracking-widest">WELCOME TO <br />
             <span className="xsm:text-6xl xl:text-8xl font-[adobe-garamond-pro] font-semibold tracking-[7%]">LUXURY</span><br /> <p className="xl:text-4xl xl:tracking-[0.5em] xl:font-[adobe-garamond-pro] xsm:tracking-normal xl:font-bold">HOTELS</p>
             <span className="xl:text-2xl xsm:font-sans xl:tracking-normal">Book your stay and enjoy Luxury <br /> redefined at the most affordable rates.</span>
