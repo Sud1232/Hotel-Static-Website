@@ -11,7 +11,7 @@ function Footer() {
       <div className="bg-[#14274A] xl:z-1 xl:w-full xl:absolute xsm:absolute text-white xl:flex xl:justify-around  xl:p-10 xsm:w-[1270px]">
         <div className=" xsm:w-[1271px] xsm:flex xsm:flex-col xsm:text-center xl:flex xl:flex-col font-[adobe-garamond-pro] xsm:text-5xl xsm:p-12 xl:w-auto xl:text-base xl:text-left">
           <p className="xl:text-2xl font-bold">LUXURY</p>
-          <p className="xl:px-4 xl:text-[7px] xsm:text-base xl:tracking-[0.3rem]">HOTELS</p>
+          <p className="xl:px-4 xl:text-[7px] xsm:text-lg xl:tracking-[0.3rem]">HOTELS</p>
           <p className="xl:py-3 xsm:pt-20">
             497 Evergreen Rd. Roseville, CA 95673 <br />
             +44 345 678 903 <br />
