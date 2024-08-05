@@ -51,21 +51,21 @@ function Home() {
         <p>All our room types are including complementary breakfast</p>
       </div>
       <div className="xsm:justify-between xsm:flex xsm:flex-col-reverse xsm:w-[1250px] xl:w-full xl:p-4 xl:px-40 xl:flex xl:flex-row xl:justify-evenly xsm:items-center">
-        <div className="xsm:justify-center xsm:p-10 xsm:flex xsm:w-[90%] xsm:flex-col xl:w-[50%] xl:flex xl:border-l-2 border-[#14274A] xl:p-10">
-          <h1 className="font-[adobe-garabond-pro] font-bold text-[#14274A] xl:text-left xl:text-2xl xsm:text-7xl xsm:text-center">Luxury redefined</h1> <br />
+        <div className="xsm:justify-center xsm:p-10 xsm:flex xsm:w-[90%] xsm:flex-col xl:w-[60%] xl:flex xl:border-l-2 border-[#14274A] xl:p-10">
+          <h1 className="font-[adobe-garabond-pro] font-bold text-[#14274A] xl:text-left xl:text-4xl xsm:text-7xl xsm:text-center">Luxury redefined</h1> <br />
           <p className="xl:text-xl xl:text-left xsm:text-4xl xsm:text-center font-[montserrat] text-[#14274A]">Our rooms are designed to transport <br />
             you into an environment made for leisure. <br />
             Take your mind off the day-to-day of home <br />
             life and find a private paradise for yourself.</p>
           <button className="bg-[#E0B973] xl:my-4 text-white font-semibold font-[Montserrat] rounded-md xl:w-30 xl:p-2 xl:m-0 xsm:p-4 xl:text-sm xsm:text-2xl xsm:w-[150px] xsm:m-auto xsm:my-5">EXPLORE</button>
         </div>
-        <div className="xsm:flex xsm:justify-center xsm:items-center xsm:w-[full] xl:w-1/2 xl:flex xl:flex-row xl:items-center">
+        <div className="xsm:flex xsm:justify-center xsm:items-center xsm:w-[full] xl:w-[70%] xl:flex xl:flex-row xl:items-center">
           <img src={bedroom} className="xsm:w-[1000px] xsm:h-full xl:w-full" />
         </div>
       </div>
       <div className="xsm:justify-between xsm:flex xsm:flex-col-reverse xsm:w-[1250px] xl:w-full xl:p-3  xl:flex xl:flex-row xl:px-40  xl:justify-evenly xsm:items-center">
-        <div className="xsm:justify-center xsm:p-10 xsm:flex xsm:w-[90%] xsm:flex-col xl:w-1/2 xl:flex xl:border-l-2 border-[#14274A]   xl:p-14">
-          <h1 className="font-[adobe-garabond-pro] font-bold text-[#14274A] xl:text-left xl:text-2xl xsm:text-7xl xsm:text-center">Leave your worries in <br /> the sand</h1><br />
+        <div className="xsm:justify-center xsm:p-10 xsm:flex xsm:w-[90%] xsm:flex-col xl:w-[60%] xl:flex xl:border-l-2 border-[#14274A]   xl:p-14">
+          <h1 className="font-[adobe-garabond-pro] font-bold text-[#14274A] xl:text-left xl:text-4xl xsm:text-7xl xsm:text-center">Leave your worries in <br /> the sand</h1><br />
           <p className="xl:text-xl xl:text-left xsm:text-4xl xsm:text-center font-[montserrat] text-[#14274A]">We love life at the beach. Being close <br />
             to the ocean with access to endless sandy <br />
             beach ensures a relaxed state of mind. It <br />
@@ -73,7 +73,7 @@ function Home() {
             ocean. </p>
           <button className="bg-[#E0B973] xl:my-4 text-white font-semibold font-[Montserrat] rounded-md xl:w-30 xl:p-2 xl:m-0 xsm:p-4 xl:text-sm xsm:text-2xl xsm:w-[150px] xsm:m-auto xsm:my-5">EXPLORE</button>
         </div>
-        <div className="xsm:flex xsm:justify-center xsm:items-center xsm:w-[full] xl:w-1/2 xl:flex xl:flex-row xl:justify-end xl:items-center">
+        <div className="xsm:flex xsm:justify-center xsm:items-center xsm:w-[full] xl:w-[70%] xl:flex xl:flex-row xl:justify-end xl:items-center">
           <img src={beach} className="xsm:w-[1000px] xsm:h-full xl:w-full" />
         </div>
       </div>
