@@ -14,7 +14,7 @@ function ContactUs() {
               <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7">HOTELS</p>
             </div>
             <div className="xl:w-auto xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:mx-24">
-              <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-12 xl:text-base text-white font-semibold xsm:py-2 xsm:text-3xl">
+              <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base text-white font-semibold xsm:py-2 xsm:text-3xl">
                 <li className="hover:underline"><Link to="/">Home</Link></li>
                 <li className="hover:underline"><Link to="/facilities">Facilities</Link></li>
                 <li className="hover:underline"><Link to="/Rooms">Rooms</Link></li>

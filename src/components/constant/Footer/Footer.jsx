@@ -3,7 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaArrowUp } from "react-icons/fa"
-
+import "../../../../src/App.css"
 function Footer() {
   return (
     <>
