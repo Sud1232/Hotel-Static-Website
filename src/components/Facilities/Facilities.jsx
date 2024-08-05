@@ -52,8 +52,8 @@ function Facilities() {
       </div>
 
       <div className="xsm:w-[1271px] xsm:text-center xsm:p-10 xl:w-full xl:p-12 xl:text-center xl:px-20 text-[#14274A] stroke-[#14274A] xl:font-medium">
-        <h1 className="xl:text-2xl xsm:font-[adobe-garamond-pro] xsm:font-bold xl:font-[adobe-garamond-pro] xl:font-bold xsm:text-5xl">FACILITIES</h1>
-        <p className="xsm:text-3xl xl:text-base xsm:pt-7 xl:pt-4 xl:w-full">We want your stay at our lush hotel to be truly unforgettable.  That is why we give special attention to all of your needs so <br />
+        <h1 className="xl:text-4xl xsm:font-[adobe-garamond-pro] xsm:font-bold xl:font-[adobe-garamond-pro] xl:font-bold xsm:text-5xl">FACILITIES</h1>
+        <p className="xsm:text-3xl xl:text-lg xsm:pt-7 xl:pt-4 xl:w-full">We want your stay at our lush hotel to be truly unforgettable.  That is why we give special attention to all of your needs so <br />
           that we can ensure an experience quite unique. Luxury hotels offers the perfect setting with stunning views for leisure <br />
           and our modern luxury resort facilities will help you enjoy the best of all. </p>
       </div>

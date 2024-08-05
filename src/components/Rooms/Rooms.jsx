@@ -52,8 +52,8 @@ function Rooms() {
       </div>
 
       <div className="xsm:w-[1271px] xsm:text-center xsm:p-10 xl:w-full xl:p-12 xl:text-center xl:px-20 text-[#14274A] stroke-[#14274A] xl:font-medium">
-        <h1 className="xl:text-2xl xsm:font-[adobe-garamond-pro] xsm:font-bold xl:font-[adobe-garamond-pro] xl:font-bold xsm:text-5xl">ROOMS AND RATES</h1>
-        <p className="xsm:text-3xl xl:text-base xsm:pt-7 xl:pt-4 xl:w-full">Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes,<br />
+        <h1 className="xl:text-4xl xsm:font-[adobe-garamond-pro] xsm:font-bold xl:font-[adobe-garamond-pro] xl:font-bold xsm:text-5xl">ROOMS AND RATES</h1>
+        <p className="xsm:text-3xl xl:text-lg xsm:pt-7 xl:pt-4 xl:w-full">Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes,<br />
           comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented <br />
           by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces. </p>
       </div>
