@@ -13,9 +13,11 @@ import { GoPlus } from "react-icons/go";
 function Rooms() {
   return (
     <>
-      <div className="xsm:w-[1271px] xsm:h-full xsm:bg-cover xsm:bg-center xl:relative xl:w-full xl:h-[95vh] xl:bg-cover xl:bg-center" style={{ backgroundImage: `url(${apartment})` }}>
-        <div className="xl:w-auto xsm:w-[60%] xsm:px-20 xl:px-18 xsm:flex xsm:justify-between xl:flex xl:justify-between">
-          <div className="xsm:p-4 xsm:flex xsm:flex-col xl:flex xl:flex-col text-[#14274A] bg-[#E0B973] xl:p-6 xl:text-3xl rounded-b-3xl justify-center">
+      <div className="relative xsm:w-[1271px] xsm:h-screen xl:w-full xl:h-[96vh]">
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${apartment})` }}></div>
+        <div className="absolute inset-0 bg-[#14274A] opacity-50"></div>
+        <div className="relative xl:w-auto xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
+          <div className="xsm:p-4 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:flex xl:flex-col text-[#14274A] bg-[#E0B973] xl:p-6 xl:text-3xl xl:rounded-b-3xl justify-center">
             <p className="xsm:p-2 xsm:text-6xl xl:text-2xl font-bold font-[adobe-garamond-pro]">LUXURY</p>
             <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7">HOTELS</p>
           </div>
@@ -28,18 +30,23 @@ function Rooms() {
             </ul>
           </div>
         </div>
-        <div className="xl:w-[auto] xl:flex text-white xl:p-22 xl:px-22 font-[adobe-garamond-pro]">
-          <p className="xsm:p-20 xsm:text-3xl xl:text-2xl font-[montserrat]">WELCOME TO <br /><p className="xsm:text-6xl xl:text-7xl font-[adobe-garabond-pro] font-semibold">LUXURY</p> HOTELS <br className="font-[montserrat]" />Book your stay and enjoy Luxury <br /> redefined at the most affordable rates.</p>
+        <div className="relative xl:w-[auto] xl:flex text-white xl:p-1 xl:px-16 font-[adobe-garamond-pro] z-10">
+          <p className="xsm:p-20 xsm:text-3xl xl:text-3xl font-sans xl:tracking-widest">WELCOME TO <br />
+            <span className="xsm:text-6xl xl:text-8xl font-[adobe-garamond-pro] font-semibold tracking-[7%]">LUXURY</span><br /> <p className="xl:text-4xl xl:tracking-[0.5em] xl:font-[adobe-garamond-pro] xsm:tracking-normal xl:font-bold">HOTELS</p>
+            <span className="xl:text-2xl xsm:font-sans xl:tracking-normal">Book your stay and enjoy Luxury <br /> redefined at the most affordable rates.</span>
+          </p>
         </div>
         <div className="xsm:flex xsm:flex-row xsm:justify-center xl:flex xl:flex-row xl:justify-center xsm:-mb-0.5">
-          <button className="bg-[#E0B973] xsm:w-[180px] xsm:text-xl xsm:gap-1 xsm:flex  xsm:p-2 xl:w-[130px] font-bold xl:flex xl:items-center xl:gap-1 xl:text-sm text-white xl:p-2 rounded-md"><img src={cal} alt="" />BOOK NOW</button>
+          <button className="bg-[#E0B973] xsm:w-[180px] xsm:text-xl xsm:gap-1 xsm:flex xsm:p-2 xsm:absolute xsm:bottom-32 xl:w-[130px] font-bold xl:flex xl:items-center xl:absolute xl:bottom-28 xl:gap-1 xl:text-sm text-white xl:p-2 rounded-md">
+            <img src={cal} alt="" />BOOK NOW
+          </button>
         </div>
         <div className="xsm:mb-5 xsm:flex xsm:flex-col xsm:justify-center xl:flex xl:flex-col xl:justify-center xl:p-8 text-white font-bold">
-          <div className="xsm:flex xsm:justify-center xsm:text-xl xl:flex xl:justify-center xl:text-xl">
+          <div className="xsm:flex xsm:absolute xsm:justify-center xsm:text-xl xsm:left-96 xsm:right-96  xl:flex xl:justify-center xl:text-xl xl:absolute xl:left-96 xl:right-96 xl:bottom-10 xsm:bottom-10">
             <p>Scroll</p>
           </div>
-          <div className="xsm:flex xsm:justify-center xl:flex xl:justify-center xl:p-2">
-            <FaChevronCircleDown className="xsm:text-2xl xl:text-2xl"></FaChevronCircleDown>
+          <div className="xsm:flex xsm:justify-center xsm:absolute xsm:left-96 xsm:right-96 xsm:bottom-1 xl:flex xl:justify-center xl:absolute xl:p-2 xl:left-96 xl:right-96 xl:bottom-1">
+            <FaChevronCircleDown className="xsm:text-2xl xl:text-2xl" />
           </div>
         </div>
       </div>
