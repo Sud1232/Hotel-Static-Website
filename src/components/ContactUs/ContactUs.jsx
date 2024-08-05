@@ -23,11 +23,11 @@ function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="xsm:p-16 xsm:flex xsm:justify-center xsm:items-center xl:p-0 xl:flex xl:justify-center xl:items-center">
+        <div className="xsm:p-16 xsm:flex xsm:justify-center xsm:items-center xl:p-0 xl:flex xl:justify-center xl:items-center xl:py-4">
           <h1 className="xsm:text-4xl xl:text-5xl text-white font-bold">CONTACT US</h1>
         </div>
       </div>
-      <div className="xl:space-y-1 xl:w-full text-[#14274A] xl:p-36 xsm:p-24 xsm:w-[1271px] xsm:text-left xsm:space-y-5">
+      <div className="xl:space-y-1 xl:w-full text-[#14274A] xl:pt-52 xl:px-36 xsm:p-24 xsm:w-[1271px] xsm:text-left xsm:space-y-5">
         <h2 className="font-[adobe-garamond-pro] font-bold xl:text-3xl xl:text-left xsm:text-5xl xsm:text-center">WE ARE HERE FOR YOU</h2>
         <p className="font-[montserrat] font-medium xl:text-lg xsm:text-3xl">At Luxury Hotels, we take our customers seriously. Do you have any enquiries, compaints or requests,
           please forward it to our support desk and we will get back to you as soon as possible.</p>
@@ -42,7 +42,7 @@ function ContactUs() {
           <p className="xl:text-2xl xl:pt-3">Phone: +44 345 678 903 <br />
             Email: luxury_hotels@gmail.com</p>
         </div>
-        <div className="xsm:w-full xsm:px-24 xsm:py-10 xl:flex xl:flex-col xl:h-[100vh] xl:space-y-0 xl:w-1/2 xl:py-0 xsm:space-y-3 xsm:h-[100vh] xl:text-left xsm:text-center">
+        <div className="xsm:w-full xsm:px-24 xsm:py-10 xl:flex xl:flex-col xl:h-[100vh] xl:space-y-0 xl:w-1/2 xl:py-0 xsm:space-y-3 xsm:h-[100vh] xl:text-left xsm:text-center text-[#14274A]">
           <p className="xl:p-0.5 xl:text-base xsm:text-3xl">Name</p>
           <input type="text" className="border-gray-300 border-2 p-2 w-[80%]" /><br />
           <p className="xl:p-0.5 xl:text-base xsm:text-3xl">Email Address</p>
