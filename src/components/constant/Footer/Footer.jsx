@@ -30,7 +30,7 @@ function Footer() {
         <div className="xl:space-y-6 xl:text-base xl:p-20 xsm:text-center xsm:space-y-[40px] xsm:p-11 xsm:pb-[90px] xsm:text-5xl">
           <p className="xsm:pb-[20px] xl:p-0 xl:text-left">Subsribe to our newsletter</p>
           <input type="email" className="placeholder:text-white border-2 outline-none border-[#E0B973] bg-transparent xl:p-2 xsm:p-2" placeholder="  Email Address" id="" />
-          <button className="bg-[#E0B973] xl:p-2.5 xl:rounded-sm xl:w-[80px] xsm:p-5 xsm:rounded-md">OK</button>
+          <button className="bg-[#E0B973] text-[#14274A] font-semibold xl:p-2.5 xl:rounded-sm xl:w-[80px] xsm:p-5 xsm:rounded-md">OK</button>
         </div>
         <div className="up">
           <a href="#top"><FaArrowUp className="up-ic"></FaArrowUp></a>

@@ -19,7 +19,7 @@ function Facilities() {
         <div className="relative xl:w-full xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
           <div className="xsm:p-4 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:w-auto xl:flex xl:flex-col text-[#14274A] bg-[#E0B973] xl:p-6 xl:text-3xl xl:rounded-b-[2.5rem] justify-center">
             <p className="xsm:p-2 xsm:text-6xl xl:text-2xl font-bold font-[adobe-garamond-pro]">LUXURY</p>
-            <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7">HOTELS</p>
+            <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7 xl:tracking-widest">HOTELS</p>
           </div>
           <div className="xl:w-[50%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
             <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-8 text-white font-semibold xsm:py-2 xsm:text-3xl">
@@ -37,7 +37,7 @@ function Facilities() {
           </p>
         </div>
         <div className="xsm:flex xsm:flex-row xsm:justify-center xl:flex xl:flex-row xl:justify-center xsm:-mb-0.5">
-          <button className="bg-[#E0B973] xsm:w-[180px] xsm:text-xl xsm:gap-1 xsm:flex xsm:p-2 xsm:absolute xsm:bottom-24 xl:w-[130px] font-bold xl:flex xl:items-center xl:absolute xl:bottom-28 xl:gap-1 xl:text-sm text-white xl:p-2 rounded-md">
+          <button className="bg-[#E0B973] xsm:w-[180px] xsm:text-xl xsm:gap-1 xsm:flex xsm:p-2 xsm:absolute xsm:bottom-24 xl:w-[130px] font-bold xl:flex xl:items-center xl:absolute xl:bottom-24 xl:gap-1 xl:text-sm text-white xl:p-2 rounded-md">
             <img src={cal} alt="" />BOOK NOW
           </button>
         </div>

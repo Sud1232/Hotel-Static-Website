@@ -4,7 +4,7 @@ import Facilities from "./components/Facilities/Facilities"
 import Rooms from "./components/Rooms/Rooms"
 import ContactUs from "./components/ContactUs/ContactUs"
 import "../src/App.css"
-
+import "../src/index.css"
 function App() {
 
   return (

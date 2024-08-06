@@ -19,7 +19,7 @@ function Rooms() {
         <div className="relative xl:w-auto xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
           <div className="xsm:p-4 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:flex xl:flex-col text-[#14274A] bg-[#E0B973] xl:p-6 xl:text-3xl xl:rounded-b-[2.5rem] justify-center">
             <p className="xsm:p-2 xsm:text-6xl xl:text-2xl font-bold font-[adobe-garamond-pro]">LUXURY</p>
-            <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7">HOTELS</p>
+            <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7 xl:tracking-widest">HOTELS</p>
           </div>
           <div className="xl:w-[50%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
             <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-8 text-white font-semibold xsm:py-2 xsm:text-3xl">
@@ -58,7 +58,7 @@ function Rooms() {
           by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces. </p>
       </div>
       <div className="xl:flex xl:flex-col xl:items-center xl:space-y-16 xl:w-full xl:justify-center xsm:w-[1271px] xsm:flex xsm:flex-col xsm:justify-center xsm:items-center xsm:space-y-14">
-        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-lg">
+        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
           <img src={room1} alt="" />
           <p className="xsm:text-center xsm:p-4 xl:p-4 xl:text-center bg-[#14274A] text-white font-bold font-[montserrat] text-3xl">SINGLE ROOM</p>
           <div className="xsm:flex xsm:items-center xsm:p-16 xsm:justify-between xl:flex xl:items-center xl:justify-between xl:p-16">
@@ -66,7 +66,7 @@ function Rooms() {
             <button className="bg-[#E0B973] text-white xsm:p-5 xsm:text-3xl xl:p-5 xl:px-16 xl:text-2xl xl:flex xl:w-[288px] xl:h-[78px] rounded-md font-bold font-[montserrat]">$147 Avg/night</button>
           </div>
         </div>
-        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-lg">
+        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
           <img src={room2} alt="" />
           <p className="xsm:text-center xsm:p-4 xl:p-4 xl:text-center bg-[#14274A] text-white font-bold font-[montserrat] text-3xl">DOUBLE ROOM</p>
           <div className="xsm:flex xsm:items-center xsm:p-16 xsm:justify-between xl:flex xl:items-center xl:justify-between xl:p-16">
@@ -74,7 +74,7 @@ function Rooms() {
             <button className="bg-[#E0B973] text-white xsm:p-5 xsm:text-3xl xl:p-5 xl:px-16 xl:text-2xl xl:flex xl:w-[288px] xl:h-[78px] rounded-md font-bold font-[montserrat]">$155 Avg/night</button>
           </div>
         </div>
-        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-lg">
+        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
           <img src={room3} alt="" />
           <p className="xsm:text-center xsm:p-4 xl:p-4 xl:text-center bg-[#14274A] text-white font-bold font-[montserrat] text-3xl">TWIN ROOM</p>
           <div className="xsm:flex xsm:items-center xsm:p-16 xsm:justify-between xl:flex xl:items-center xl:justify-between xl:p-16">
