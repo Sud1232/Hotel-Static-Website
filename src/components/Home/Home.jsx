@@ -11,16 +11,18 @@ function Home() {
   return (
     <>
 
-      <div className="relative xsm:w-[1271px] xsm:h-screen xl:w-full xl:h-[96vh]">
+      <div className="relative xsm:w-[1271px] xsm:h-screen xl:w-full xl:h-screen">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}></div>
         <div className="absolute inset-0 bg-[#14274A] opacity-50"></div>
         <div className="relative xl:w-full xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
-          <div className="xsm:p-4 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:w-auto xl:flex xl:flex-col text-[#14274A] bg-[#E0B973] xl:p-6 xl:text-3xl xl:rounded-b-[2.5rem] justify-center">
-            <p className="xsm:p-2 xsm:text-6xl xl:text-2xl font-bold font-[adobe-garamond-pro]">LUXURY</p>
-            <p className="xsm:text-3xl xl:text-sm font-[adobe-garamond-pro] xsm:px-20 xl:px-7 xl:tracking-widest">HOTELS</p>
+          <div className="xsm:p-0 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:w-[40%] xl:flex xl:flex-col text-[#14274A]  xl:p-0 xl:text-3xl justify-center">
+            <div className="bg-[#E0B973] xl:w-[40%] xl:rounded-b-[2rem] xsm:p-2 xsm:rounded-b-3xl xl:p-8 flex flex-col justify-center items-center">
+              <p className="xsm:p-2 xsm:text-6xl xl:text-3xl xl:leading-3 font-semibold font-[adobe-garamond-pro]">LUXURY</p>
+              <p className="xsm:text-3xl xl:text-sm xl:font-semibold font-[adobe-garamond-pro] xsm:px-20 xl:px-7 xl:tracking-[0.4em]">HOTELS</p>
+            </div>
           </div>
-          <div className="xl:w-[50%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
-            <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-8 text-white font-semibold xsm:py-2 xsm:text-3xl">
+          <div className="xl:w-[60%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
+            <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
               <li className="hover:underline"><Link to="/">Home</Link></li>
               <li className="hover:underline"><Link to="/facilities">Facilities</Link></li>
               <li className="hover:underline"><Link to="/Rooms">Rooms</Link></li>
@@ -28,7 +30,7 @@ function Home() {
             </ul>
           </div>
         </div>
-        <div className="relative xl:w-[auto] xl:flex text-white xl:p-1 xl:px-16 font-[adobe-garamond-pro] z-10 hover:drop-shadow-2xl">
+        <div className="relative xl:w-[auto] xl:flex text-white xl:p-9 xl:px-16 font-[adobe-garamond-pro] z-10 hover:drop-shadow-2xl">
           <p className="xsm:p-20 xsm:text-3xl xl:text-3xl font-sans xl:tracking-widest">WELCOME TO <br />
             <span className="xsm:text-6xl xl:text-8xl font-[adobe-garamond-pro] font-semibold tracking-[7%]">LUXURY</span><br /> <p className="xl:text-4xl xl:tracking-[0.5em] xl:font-[adobe-garamond-pro] xsm:tracking-normal xl:font-bold">HOTELS</p>
             <span className="xl:text-2xl xsm:font-sans xl:tracking-normal">Book your stay and enjoy Luxury <br /> redefined at the most affordable rates.</span>
@@ -48,7 +50,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="xl:w-auto xl:text-center xsm:p-6 xsm:w-[1250px] xsm:text-3xl xsm:text-center xl:text-2xl xl:p-12 text-[#14274A] stroke-[#14274A] xl:font-medium z-10">
+      <div className="xl:w-auto xl:text-center xsm:p-6 xsm:w-[1250px] xsm:text-3xl xsm:text-center xl:text-2xl xl:p-12 text-[#14274A] stroke-[#14274A] xl:font-medium z-10 xl:tracking-wide">
         <p>All our room types are including complementary breakfast</p>
       </div>
       <div className="xsm:justify-between xsm:flex xsm:flex-col-reverse xsm:w-[1250px] xl:w-full xl:p-4 xl:px-40 xl:flex xl:flex-row xl:justify-evenly xsm:items-center">
