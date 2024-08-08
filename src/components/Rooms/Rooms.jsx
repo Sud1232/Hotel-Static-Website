@@ -60,7 +60,7 @@ function Rooms() {
           by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces. </p>
       </div>
       <div className="xl:flex xl:flex-col xl:items-center xl:space-y-16 xl:w-full xl:justify-center xsm:w-[1271px] xsm:flex xsm:flex-col xsm:justify-center xsm:items-center xsm:space-y-14">
-        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
+        <div className="xl:w-[85%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
           <img src={room1} alt="" />
           <p className="xsm:text-center xsm:p-4 xl:p-4 xl:text-center bg-[#14274A] text-white font-bold font-[montserrat] text-3xl">SINGLE ROOM</p>
           <div className="xsm:flex xsm:items-center xsm:p-16 xsm:justify-between xl:flex xl:items-center xl:justify-between xl:p-16">
@@ -68,15 +68,15 @@ function Rooms() {
             <button className="bg-[#E0B973] text-white xsm:p-5 xsm:text-3xl xl:p-5 xl:px-16 xl:text-2xl xl:flex xl:w-[288px] xl:h-[78px] rounded-md font-bold font-[montserrat]">$147 Avg/night</button>
           </div>
         </div>
-        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
+        <div className="xl:w-[85%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
           <img src={room2} alt="" />
           <p className="xsm:text-center xsm:p-4 xl:p-4 xl:text-center bg-[#14274A] text-white font-bold font-[montserrat] text-3xl">DOUBLE ROOM</p>
           <div className="xsm:flex xsm:items-center xsm:p-16 xsm:justify-between xl:flex xl:items-center xl:justify-between xl:p-16">
             <p className="xsm:flex xsm:items-center xsm:gap-x-3 xsm:text-3xl xl:flex xl:text-base xl:items-center font-bold font-[montserrat] text-[#14274A] xl:gap-x-3"><GoPlus className="bg-[#E0B973] text-white rounded-full xsm:w-16 xsm:h-16 xl:w-10 xl:h-10"></GoPlus>VIEW ROOM DETAILS </p>
-            <button className="bg-[#E0B973] text-white xsm:p-5 xsm:text-3xl xl:p-5 xl:px-16 xl:text-2xl xl:flex xl:w-[288px] xl:h-[78px] rounded-md font-bold font-[montserrat]">$155 Avg/night</button>
+            <button className="bg-[#E0B973] text-white xsm:p-5 xsm:text-3xl xl:p-5 xl:px-16 xl:text-2xl xl:flex xl:w-[288px] xl:h-[78px] rounded-md font-bold font-[montserrat]">$147 Avg/night</button>
           </div>
         </div>
-        <div className="xl:w-[90%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
+        <div className="xl:w-[85%] xsm:w-[90%] border-2 border-[#14274A] rounded-b-lg">
           <img src={room3} alt="" />
           <p className="xsm:text-center xsm:p-4 xl:p-4 xl:text-center bg-[#14274A] text-white font-bold font-[montserrat] text-3xl">TWIN ROOM</p>
           <div className="xsm:flex xsm:items-center xsm:p-16 xsm:justify-between xl:flex xl:items-center xl:justify-between xl:p-16">

@@ -6,10 +6,10 @@
   scroll-behavior: smooth;
 }
 
-html{
+html {
   overflow-y: scroll;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   display: none;
 }

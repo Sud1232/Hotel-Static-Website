@@ -59,35 +59,35 @@ function Facilities() {
           that we can ensure an experience quite unique. Luxury hotels offers the perfect setting with stunning views for leisure <br />
           and our modern luxury resort facilities will help you enjoy the best of all. </p>
       </div>
-      <div className="xsm:w-[1271px] xl:w-full xsm:flex xsm:flex-col xsm:justify-center xsm:items-center xsm:space-y-32 xl:flex xl:flex-col xl:justify-center xl:space-y-48 xl:items-center xl:py-10">
-        <div className="xl:w-[90%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${gym})` }}>
+      <div className="xsm:w-[1271px] xl:w-full xsm:flex xsm:flex-col xsm:justify-center xsm:items-center xsm:space-y-32 xl:flex xl:flex-col xl:justify-center xl:space-y-36 xl:items-center xl:py-10">
+        <div className="xl:w-[80%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${gym})` }}>
           <div className="xsm:flex xsm:justify-center xsm:items-center xl:h-auto xl:flex xl:justify-center xl:items-center">
-            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[48.6%] xl:pl-auto xl:w-[30%] xl:text-2xl">THE GYM </p>
+            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[52.3%] xl:p-2 xl:pl-auto xl:w-[45%] xl:text-4xl">THE GYM </p>
           </div>
         </div>
-        <div className="xl:w-[90%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${bar})` }}>
+        <div className="xl:w-[80%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${bar})` }}>
           <div className="xsm:flex xsm:justify-center xsm:items-center xl:h-auto xl:flex xl:justify-center xl:items-center">
-            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[48.6%] xl:pl-auto xl:w-[30%] xl:text-2xl">POOLSIDE BAR </p>
+            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[52.3%] xl:p-2 xl:pl-auto xl:w-[45%] xl:text-4xl">POOLSIDE BAR </p>
           </div>
         </div>
-        <div className="xl:w-[90%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${spa})` }}>
+        <div className="xl:w-[80%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${spa})` }}>
           <div className="xsm:flex xsm:justify-center xsm:items-center xl:h-auto xl:flex xl:justify-center xl:items-center">
-            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[48.6%] xl:pl-auto xl:w-[30%] xl:text-2xl">THE SPA </p>
+            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[52.3%] xl:p-2 xl:pl-auto xl:w-[45%] xl:text-4xl">THE SPA </p>
           </div>
         </div>
-        <div className="xl:w-[90%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${swim})` }}>
+        <div className="xl:w-[80%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${swim})` }}>
           <div className="xsm:flex xsm:justify-center xsm:items-center xl:h-auto xl:flex xl:justify-center xl:items-center">
-            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[48.6%] xl:pl-auto xl:w-[30%] xl:text-2xl">SWIMMING POOL </p>
+            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[52.3%] xl:p-2 xl:pl-auto xl:w-[45%] xl:text-4xl">SWIMMING POOL </p>
           </div>
         </div>
-        <div className="xl:w-[90%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${restaurant})` }}>
+        <div className="xl:w-[80%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${restaurant})` }}>
           <div className="xsm:flex xsm:justify-center xsm:items-center xl:h-auto xl:flex xl:justify-center xl:items-center">
-            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[48.6%] xl:pl-auto xl:w-[30%] xl:text-2xl">RESTAURANT </p>
+            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[52.3%] xl:p-2 xl:pl-auto xl:w-[45%] xl:text-4xl">RESTAURANT </p>
           </div>
         </div>
-        <div className="xl:w-[90%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${laundry})` }}>
+        <div className="xl:w-[80%] xl:h-screen xl:bg-cover xl:bg-center xsm:w-[90%] xsm:h-screen xsm:bg-cover xsm:bg-center" style={{ backgroundImage: `url(${laundry})` }}>
           <div className="xsm:flex xsm:justify-center xsm:items-center xl:h-auto xl:flex xl:justify-center xl:items-center">
-            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[48.6%] xl:pl-auto xl:w-[30%] xl:text-2xl">LAUNDRY </p>
+            <p className="text-[#14274A] bg-white font-bold xsm:mt-[51%] xsm:text-center xsm:w-[30%] xsm:text-3xl xl:text-center xl:mt-[52.3%] xl:p-2 xl:pl-auto xl:w-[45%] xl:text-4xl">LAUNDRY</p>
           </div>
         </div>
       </div>

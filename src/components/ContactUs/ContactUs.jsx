@@ -6,7 +6,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 function ContactUs() {
   return (
     <>
-      <div className="bg-[#14274A] xsm:w-[1271px] xl:w-full xl:h-[300px]">
+      <div className="bg-[#14274A] xsm:w-[1271px] xl:w-full xl:h-[350px]">
         <div>
           <div className="relative xl:w-auto xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
             <div className="xsm:p-0 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:w-[40%] xl:flex xl:flex-col text-[#14274A]  xl:p-0 xl:text-3xl justify-center">
@@ -25,8 +25,8 @@ function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="xsm:p-16 xsm:flex xsm:justify-center xsm:items-center xl:p-0 xl:flex xl:justify-center xl:items-center xl:py-10">
-          <h1 className="xsm:text-4xl xl:text-5xl text-white font-bold">CONTACT US</h1>
+        <div className="xsm:p-16 xsm:flex xsm:justify-center xsm:items-center xl:p-0 xl:flex xl:justify-center xl:items-center xl:py-14">
+          <h1 className="xsm:text-4xl xl:text-6xl text-white font-bold">CONTACT US</h1>
         </div>
       </div>
       <div className="xl:space-y-1 xl:w-full text-[#14274A] xl:pt-52 xl:px-36 xsm:p-24 xsm:w-[1271px] xsm:text-left xsm:space-y-5">
