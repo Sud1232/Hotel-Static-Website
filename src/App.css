@@ -18,6 +18,8 @@
   color: white;
 }
 
+
+
 @media only screen and (max-width:320px) {
   .up {
     right: 40px;

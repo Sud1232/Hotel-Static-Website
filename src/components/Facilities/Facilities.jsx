@@ -25,10 +25,10 @@ function Facilities() {
           </div>
           <div className="xl:w-[60%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
             <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
-              <li className="hover:underline"><Link to="/">Home</Link></li>
-              <li className="hover:underline"><Link to="/facilities">Facilities</Link></li>
-              <li className="hover:underline"><Link to="/Rooms">Rooms</Link></li>
-              <li className="hover:underline"><Link to="/contact">Contact-us</Link></li>
+              <li className="hover:underline hover:font-bold"><Link to="/">Home</Link></li>
+              <li className="hover:underline hover:font-bold"><Link to="/facilities"><u>Facilities</u></Link></li>
+              <li className="hover:underline hover:font-bold"><Link to="/Rooms">Rooms</Link></li>
+              <li className="hover:underline hover:font-bold"><Link to="/contact">Contact-us</Link></li>
             </ul>
           </div>
         </div>
