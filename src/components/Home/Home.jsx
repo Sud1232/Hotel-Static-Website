@@ -50,7 +50,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="xl:w-auto xl:text-center xsm:p-6 xsm:w-[1250px] xsm:text-3xl xsm:text-center xl:text-2xl xl:p-12 text-[#14274A] stroke-[#14274A] xl:font-medium z-10 xl:tracking-wide">
+      <div className="xl:w-auto xl:text-center xsm:p-6 xsm:w-[1250px] xsm:text-3xl xsm:text-center xl:text-xl xl:p-12 text-[#14274A] stroke-[#14274A] xl:font-medium z-10 xl:tracking-wide">
         <p>All our room types are including complementary breakfast</p>
       </div>
       <div className="xsm:justify-between xsm:flex xsm:flex-col-reverse xsm:w-[1250px] xl:w-full xl:p-4 xl:px-40 xl:flex xl:flex-row xl:justify-evenly xsm:items-center">

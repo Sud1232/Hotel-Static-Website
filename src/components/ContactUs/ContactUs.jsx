@@ -30,27 +30,27 @@ function ContactUs() {
         </div>
       </div>
       <div className="xl:space-y-1 xl:w-full text-[#14274A] xl:pt-52 xl:px-36 xsm:p-24 xsm:w-[1271px] xsm:text-left xsm:space-y-5">
-        <h2 className="font-[adobe-garamond-pro] font-bold xl:text-3xl xl:text-left xsm:text-5xl xsm:text-center">WE ARE HERE FOR YOU</h2>
-        <p className="font-[montserrat] font-medium xl:text-lg xsm:text-3xl">At Luxury Hotels, we take our customers seriously. Do you have any enquiries, compaints or requests,
+        <h2 className="font-[adobe-garamond-pro] font-bold xl:text-5xl xl:text-left xsm:text-5xl xsm:text-center">WE ARE HERE FOR YOU</h2>
+        <p className="font-[montserrat] font-medium xl:text-xl xsm:text-3xl">At Luxury Hotels, we take our customers seriously. Do you have any enquiries, compaints or requests,
           please forward it to our support desk and we will get back to you as soon as possible.</p>
       </div>
       <div className="xsm:w-[1271px] xsm:justify-center xsm:flex xsm:flex-col xl:flex xl:flex-row xl:w-full text-[#14274A] xl:justify-evenly">
         <div className="xsm:w-full xsm:px-24 xsm:text-5xl xl:w-1/2 xl:px-36 xl:text-6xl xl:text-left xsm:text-center">
-          <p className="xsm:text-5xl xl:text-2xl xsm:gap-y-[30px]">497 Evergreen Rd. Roseville,</p>
-          <p className="xl:text-2xl xsm:text-5xl">CA 95673</p>
+          <p className="xsm:text-5xl xl:text-3xl xsm:gap-y-[30px]">497 Evergreen Rd. Roseville,</p>
+          <p className="xl:text-3xl xsm:text-5xl">CA 95673</p>
           <div className="xsm:flex xl:flex xl:justify-start xl:items-center xsm:justify-center xl:gap-x-3 xsm:gap-x-2">
-            <p className="font-bold xl:text-2xl xl:text-left xsm:pt-4 xl:pt-2 xl:pb-4 xsm:pb-1 xsm:text-5xl">View map</p><HiArrowLongRight className="xsm:w-16 xsm:h-20 xl:w-14 xl:h-20"></HiArrowLongRight>
+            <p className="font-bold xl:text-3xl xl:text-left xsm:pt-4 xl:pt-2 xl:pb-4 xsm:pb-1 xsm:text-5xl">View map</p><HiArrowLongRight className="xsm:w-16 xsm:h-20 xl:w-14 xl:h-20"></HiArrowLongRight>
           </div>
-          <p className="xl:text-2xl xl:pt-3">Phone: +44 345 678 903 <br />
+          <p className="xl:text-3xl xl:pt-3">Phone: +44 345 678 903 <br />
             Email: luxury_hotels@gmail.com</p>
         </div>
         <div className="xsm:w-full xsm:px-24 xsm:py-10 xl:flex xl:flex-col xl:h-[100vh] xl:space-y-0 xl:w-1/2 xl:py-0 xsm:space-y-3 xsm:h-[100vh] xl:text-left xsm:text-center text-[#14274A]">
-          <p className="xl:p-0.5 xl:text-base xsm:text-3xl">Name</p>
-          <input type="text" className="border-gray-300 border-2 p-2 w-[80%]" /><br />
-          <p className="xl:p-0.5 xl:text-base xsm:text-3xl">Email Address</p>
-          <input type="email" className="border-gray-300 border-2 p-2 w-[80%]" /><br />
-          <p className="xl:p-0.5 xl:text-base xsm:text-3xl">Message</p>
-          <textarea className="xl:w-[80%] xl:p-2 xl:border-2 xsm:border-2 xsm:w-[80%] border-gray-300" name="" id="" cols="2" rows="7"></textarea><br />
+          <p className="xl:p-0.5 xl:text-lg xsm:text-3xl font-semibold">Name</p>
+          <input type="text" className="border-gray-400 border-2 p-2 w-[80%]" /><br />
+          <p className="xl:p-0.5 xl:text-lg xsm:text-3xl font-semibold">Email Address</p>
+          <input type="email" className="border-gray-400 border-2 p-2 w-[80%]" /><br />
+          <p className="xl:p-0.5 xl:text-lg xsm:text-3xl font-semibold">Message</p>
+          <textarea className="xl:w-[80%] xl:p-2 xl:border-2 xsm:border-2 xsm:w-[80%] border-gray-400" name="" id="" cols="2" rows="7"></textarea><br />
           <button type="submit" className="bg-[#E0B973] text-white xl:text-base xl:w-[15%] xl:mx-[65%] xl:p-2 rounded-md font-semibold xsm:mb-72 xsm:text-2xl xsm:p-2">Submit</button>
         </div>
       </div>
