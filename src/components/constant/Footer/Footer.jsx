@@ -23,9 +23,9 @@ function Footer() {
           <p>Terms & Conditions</p>
         </div>
         <div className="xsm:p-20 xsm:w-[1250px] xsm:space-y-2 xsm:justify-center xsm:space-x-14 xsm:flex xl:text-base xl:w-auto xl:flex xl:flex-col xl:justify-center xl:space-y-3 xl:-space-x-0 font-semibold xl:p-0 xsm:text-5xl">
-          <div className="xsm:flex xsm:justify-center xl:flex xl:items-center xl:space-x-2"><FaFacebookF></FaFacebookF><p><Link to="https://www.facebook.com/">Facebook</Link></p></div>
-          <div className="xsm:flex xsm:justify-center xl:flex xl:items-center xl:space-x-2 xsm:space-x-2"><FaTwitter className=""></FaTwitter><p className="xl:pr-5 xsm:pr-0"><Link to="https://x.com/">Twitter</Link></p></div>
-          <div className="xsm:flex xsm:justify-center xl:flex xl:items-center xl:space-x-2"><FaInstagram className=""></FaInstagram><p><Link to="https://www.instagram.com/">Instagram</Link></p></div>
+          <div className="xsm:flex xsm:justify-center xl:flex xl:items-center xl:space-x-4"><FaFacebookF ></FaFacebookF><p className="xl:pr-1"><Link to="https://www.facebook.com/">Facebook</Link></p></div>
+          <div className="xsm:flex xsm:justify-center xl:flex xl:items-center xl:space-x-4 xsm:space-x-2"><FaTwitter className=""></FaTwitter><p className="xl:pr-6 xsm:pr-0"><Link to="https://x.com/">Twitter</Link></p></div>
+          <div className="xsm:flex xsm:justify-center xl:flex xl:items-center xl:space-x-4"><FaInstagram className=""></FaInstagram><p><Link to="https://www.instagram.com/">Instagram</Link></p></div>
         </div>
         <div className="xl:space-y-6 xl:text-base xl:p-20 xsm:text-center xsm:space-y-[40px] xsm:p-11 xsm:pb-[90px] xsm:text-5xl">
           <p className="xsm:pb-[20px] xl:p-0 xl:text-left">Subsribe to our newsletter</p>
