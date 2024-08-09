@@ -18,6 +18,13 @@
   color: white;
 }
 
+.slick-next:before {
+  display: none;
+}
+
+.slick-dots li button:before{
+  color: white;
+}
 @media only screen and (max-width:320px) {
   .up {
     right: 40px;

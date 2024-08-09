@@ -47,7 +47,6 @@ function Rooms() {
           padding: '10px',
           marker: `white`,
           fontSize: `5rem`,
-          
         }}
       >
         <ul style={{ padding: `0px`, margin: '0px', }}> {dots} </ul>
