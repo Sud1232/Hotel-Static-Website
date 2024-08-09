@@ -44,14 +44,14 @@ function ContactUs() {
           <p className="xl:text-3xl xl:pt-3">Phone: +44 345 678 903 <br />
             Email: luxury_hotels@gmail.com</p>
         </div>
-        <div className="xsm:w-full xsm:px-24 xsm:py-10 xl:flex xl:flex-col xl:h-[100vh] xl:space-y-0 xl:w-1/2 xl:py-0 xsm:space-y-3 xsm:h-[100vh] xl:text-left xsm:text-center text-[#14274A]">
+        <div className="xsm:w-full xsm:px-24 xsm:py-10 xl:flex xl:flex-col xl:w-1/2 xl:py-0 xl:space-y-2 xsm:space-y-3 xsm:h-[100vh] xl:h-[860px] xl:text-left xsm:text-center text-[#14274A]">
           <p className="xl:p-0.5 xl:text-lg xsm:text-3xl font-semibold">Name</p>
-          <input type="text" className="border-gray-400 border-2 p-2 w-[80%]" /><br />
+          <input type="text" className="border-gray-400 border-2 p-2 w-[80%]" />
           <p className="xl:p-0.5 xl:text-lg xsm:text-3xl font-semibold">Email Address</p>
-          <input type="email" className="border-gray-400 border-2 p-2 w-[80%]" /><br />
+          <input type="email" className="border-gray-400 border-2 p-2 w-[80%]" />
           <p className="xl:p-0.5 xl:text-lg xsm:text-3xl font-semibold">Message</p>
           <textarea className="xl:w-[80%] xl:p-2 xl:border-2 xsm:border-2 xsm:w-[80%] border-gray-400" name="" id="" cols="2" rows="7"></textarea><br />
-          <button type="submit" className="bg-[#E0B973] text-white xl:text-base xl:w-[15%] xl:mx-[65%] xl:p-2 rounded-md font-semibold xsm:mb-72 xsm:text-2xl xsm:p-2">Submit</button>
+          <button type="submit" className="bg-[#E0B973] text-[#ffffff] xl:mt-[40%] xl:text-lg xl:font-semibold xl:w-[20%] xl:mx-[60%] xl:p-4 xl:mt- rounded-md font-semibold xsm:mb-72 xsm:text-2xl xsm:p-2">Submit</button>
         </div>
       </div>
       <Footer />

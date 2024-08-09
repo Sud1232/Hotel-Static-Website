@@ -122,10 +122,10 @@ function Rooms() {
           </button>
         </div>
         <div className="xsm:mb-5 xsm:flex xsm:flex-col xsm:justify-center xl:flex xl:flex-col xl:justify-center xl:p-8 text-white font-bold">
-          <div className="xsm:flex xsm:absolute xsm:justify-center xsm:text-xl xsm:left-96 xsm:right-96  xl:flex xl:justify-center xl:text-xl xl:absolute xl:tracking-widest xl:left-96 xl:right-96 xl:bottom-16 xsm:bottom-10">
+          <div className="xsm:flex xsm:absolute xsm:justify-center xsm:text-xl xsm:left-96 xsm:right-96  xl:flex xl:justify-center xl:text-xl xl:absolute xl:tracking-widest xl:left-96 xl:right-96 xl:bottom-16 xsm:bottom-16">
             <p>Scroll</p>
           </div>
-          <div className="xsm:flex xsm:justify-center xsm:absolute xsm:left-96 xsm:right-96 xsm:bottom-1 xl:flex xl:justify-center xl:absolute xl:p-3 xl:left-96 xl:right-96 xl:bottom-1">
+          <div className="xsm:flex xsm:justify-center xsm:absolute xsm:left-96 xsm:right-96 xsm:bottom-1 xl:flex xl:justify-center xl:absolute xl:p-0 xl:left-96 xl:right-96 xl:bottom-5">
             <FaChevronCircleDown className="xsm:text-2xl xl:text-4xl" />
           </div>
         </div>
