@@ -25,6 +25,11 @@
 .slick-dots li button:before{
   color: white;
 }
+.slick-dots li button{
+  width:40px;
+  height:40px;
+}
+
 @media only screen and (max-width:320px) {
   .up {
     right: 40px;
