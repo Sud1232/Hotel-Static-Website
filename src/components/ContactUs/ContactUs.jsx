@@ -8,21 +8,22 @@ function ContactUs() {
     <>
       <div className="bg-[#14274A] xsm:w-[1271px] xl:w-full xl:h-[380px]">
         <div>
-          <div className="relative xl:w-auto xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
+          <div className="relative xl:w-full xsm:w-[60%] xsm:px-20 xl:px-36 xsm:flex xsm:justify-between xl:flex xl:justify-between z-10">
             <div className="xsm:p-0 xsm:flex xsm:flex-col xsm:rounded-b-3xl xl:w-[40%] xl:flex xl:flex-col text-[#14274A]  xl:p-0 xl:text-3xl justify-center">
               <div className="bg-[#E0B973] xl:w-[40%] xl:rounded-b-[2rem] xsm:p-2 xsm:rounded-b-3xl xl:p-8 flex flex-col justify-center items-center">
                 <p className="xsm:p-2 xsm:text-6xl xl:text-3xl xl:leading-3 font-semibold font-[adobe-garamond-pro]">LUXURY</p>
                 <p className="xsm:text-3xl xl:text-sm xl:font-semibold font-[adobe-garamond-pro] xsm:px-20 xl:px-7 xl:tracking-[0.4em]">HOTELS</p>
               </div>
             </div>
-            <div className="xl:w-[60%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
-              <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
-                <li className="hover:font-bold"><Link to="/">Home</Link></li>
+            <div className="xl:w-[60%] xsm:w-[30%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
+              <ul className="xsm:flex  xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
+                <li className="hover:font-bold"><Link to="/" className="font-bold ">Home</Link></li>
                 <li className="hover:font-bold"><Link to="/facilities">Facilities</Link></li>
                 <li className="hover:font-bold"><Link to="/Rooms">Rooms</Link></li>
-                <li className="hover:font-bold"><Link to="/contact" className="font-bold underline underline-offset-4">Contact-us</Link></li>
+                <li className="hover:font-bold xsm:w-[150px]"><Link to="/contact" className="underline underline-offset-4">Contact-us</Link></li>
               </ul>
             </div>
+
           </div>
         </div>
         <div className="xsm:p-16 xsm:flex xsm:justify-center xsm:items-center xl:p-0 xl:flex xl:justify-center xl:items-center xl:py-14">

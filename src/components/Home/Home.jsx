@@ -21,12 +21,12 @@ function Home() {
               <p className="xsm:text-3xl xl:text-sm xl:font-semibold font-[adobe-garamond-pro] xsm:px-20 xl:px-7 xl:tracking-[0.4em]">HOTELS</p>
             </div>
           </div>
-          <div className="xl:w-[60%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
-            <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
+          <div className="xl:w-[60%] xsm:w-[30%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
+            <ul className="xsm:flex  xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
               <li className="hover:font-bold"><Link to="/" className="font-bold underline underline-offset-4">Home</Link></li>
               <li className="hover:font-bold"><Link to="/facilities">Facilities</Link></li>
               <li className="hover:font-bold"><Link to="/Rooms">Rooms</Link></li>
-              <li className="hover:font-bold"><Link to="/contact">Contact-us</Link></li>
+              <li className="hover:font-bold xsm:w-[150px]"><Link to="/contact">Contact-us</Link></li>
             </ul>
           </div>
         </div>
@@ -42,10 +42,10 @@ function Home() {
           </button>
         </div>
         <div className="xsm:mb-5 xsm:flex xsm:flex-col xsm:justify-center xl:flex xl:flex-col xl:justify-center xl:p-8 text-white font-bold">
-          <div className="xsm:flex xsm:absolute xsm:justify-center xsm:text-xl xsm:left-96 xsm:right-96  xl:flex xl:justify-center xl:text-xl xl:absolute xl:tracking-widest xl:left-96 xl:right-96 xl:bottom-16 xsm:bottom-16">
+        <div className="xsm:flex xsm:absolute xsm:justify-center xsm:text-xl xsm:left-96 xsm:right-96  xl:flex xl:justify-center xl:text-xl xl:absolute xl:tracking-widest xl:left-96 xl:right-96 xl:bottom-16 xsm:bottom-16">
             <p>Scroll</p>
           </div>
-          <div className="xsm:flex xsm:justify-center xsm:absolute xsm:left-96 xsm:right-96 xsm:bottom-1 xl:flex xl:justify-center xl:absolute xl:p-0 xl:left-96 xl:right-96 xl:bottom-5">
+          <div className="xsm:flex xsm:justify-center xsm:absolute xsm:left-96 xsm:right-96 xsm:bottom-1 xl:flex xl:justify-center xl:absolute xl:p-0 xl:left-96 xl:right-96 xl:bottom-3">
             <FaChevronCircleDown className="xsm:text-2xl xl:text-4xl" />
           </div>
         </div>

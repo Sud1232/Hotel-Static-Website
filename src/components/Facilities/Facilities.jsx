@@ -23,14 +23,15 @@ function Facilities() {
               <p className="xsm:text-3xl xl:text-sm xl:font-semibold font-[adobe-garamond-pro] xsm:px-20 xl:px-7 xl:tracking-[0.4em]">HOTELS</p>
             </div>
           </div>
-          <div className="xl:w-[60%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
-            <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
-              <li className="hover:font-bold"><Link to="/">Home</Link></li>
-              <li className="hover:font-bold"><Link to="/facilities" className="font-bold underline underline-offset-4">Facilities</Link></li>
+          <div className="xl:w-[60%] xsm:w-[30%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
+            <ul className="xsm:flex  xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
+              <li className="hover:font-bold"><Link to="/" className="">Home</Link></li>
+              <li className="hover:font-bold"><Link to="/facilities" className="underline underline-offset-4">Facilities</Link></li>
               <li className="hover:font-bold"><Link to="/Rooms">Rooms</Link></li>
-              <li className="hover:font-bold"><Link to="/contact">Contact-us</Link></li>
+              <li className="hover:font-bold xsm:w-[150px]"><Link to="/contact">Contact-us</Link></li>
             </ul>
           </div>
+
         </div>
         <div className="relative xl:w-[auto] xl:flex text-white xl:p-9 xl:px-16 font-[adobe-garamond-pro] z-10 hover:drop-shadow-2xl">
           <p className="xsm:p-20 xsm:text-3xl xl:text-3xl font-sans xl:tracking-widest">WELCOME TO <br />

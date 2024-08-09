@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
@@ -22,9 +23,9 @@
   display: none;
 }
 
-.slick-dots li button:before{
+/* .slick-dots li button:before{
   color: white;
-}
+} */
 .slick-dots li button{
   width:40px;
   height:40px;
