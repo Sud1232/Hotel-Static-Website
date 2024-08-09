@@ -25,10 +25,10 @@ function Facilities() {
           </div>
           <div className="xl:w-[60%] xsm:w-[20%] xsm:flex xsm:items-center xl:flex xl:p-4 xl:items-center xl:justify-end xl:ml-8">
             <ul className="xsm:flex xsm:gap-10 xl:flex xl:space-x-10 xl:text-base xl:mx-20 text-white font-semibold xsm:py-2 xsm:text-3xl">
-              <li className="hover:underline hover:font-bold"><Link to="/">Home</Link></li>
-              <li className="hover:underline hover:font-bold"><Link to="/facilities"><u>Facilities</u></Link></li>
-              <li className="hover:underline hover:font-bold"><Link to="/Rooms">Rooms</Link></li>
-              <li className="hover:underline hover:font-bold"><Link to="/contact">Contact-us</Link></li>
+              <li className="hover:font-bold"><Link to="/">Home</Link></li>
+              <li className="hover:font-bold"><Link to="/facilities" className="font-bold underline underline-offset-4">Facilities</Link></li>
+              <li className="hover:font-bold"><Link to="/Rooms">Rooms</Link></li>
+              <li className="hover:font-bold"><Link to="/contact">Contact-us</Link></li>
             </ul>
           </div>
         </div>
@@ -39,12 +39,12 @@ function Facilities() {
           </p>
         </div>
         <div className="xsm:flex xsm:flex-row xsm:justify-center xl:flex xl:flex-row xl:justify-center xsm:-mb-0.5">
-          <button className="bg-[#E0B973] xsm:w-[180px] xsm:text-xl xsm:gap-1 xsm:flex xsm:p-2 xsm:absolute xsm:bottom-24 xl:w-[130px] font-bold xl:flex xl:items-center xl:absolute xl:bottom-32 xl:gap-1 xl:text-sm text-white xl:p-2 rounded-md">
+          <button className="bg-[#E0B973] xsm:w-[180px] xsm:text-xl xsm:gap-1 xsm:flex xsm:p-2 xsm:absolute xsm:bottom-24 xl:w-[206px] font-semibold xl:flex xl:justify-center xl:items-center xl:absolute xl:bottom-32 xl:gap-3 xl:text-xl text-white xl:p-3 rounded-md">
             <img src={cal} alt="" />BOOK NOW
           </button>
         </div>
         <div className="xsm:mb-5 xsm:flex xsm:flex-col xsm:justify-center xl:flex xl:flex-col xl:justify-center xl:p-8 text-white font-bold">
-          <div className="xsm:flex xsm:absolute xsm:justify-center xsm:text-xl xsm:left-96 xsm:right-96  xl:flex xl:justify-center xl:text-xl xl:absolute xl:left-96 xl:right-96 xl:bottom-16 xsm:bottom-10">
+          <div className="xsm:flex xsm:absolute xsm:justify-center xsm:text-xl xsm:left-96 xsm:right-96  xl:flex xl:justify-center xl:text-xl xl:absolute xl:tracking-widest xl:left-96 xl:right-96 xl:bottom-16 xsm:bottom-10">
             <p>Scroll</p>
           </div>
           <div className="xsm:flex xsm:justify-center xsm:absolute xsm:left-96 xsm:right-96 xsm:bottom-1 xl:flex xl:justify-center xl:absolute xl:p-2 xl:left-96 xl:right-96 xl:bottom-1">
